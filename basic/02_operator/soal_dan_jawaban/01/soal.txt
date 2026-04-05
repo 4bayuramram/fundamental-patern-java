@@ -1,0 +1,30 @@
+
+
+
+
+Latihan Soal Operator Java
+
+1. Buat variabel panjang = 6 dan lebar = 4, lalu hitung luas persegi panjang menggunakan operator arithmetic.
+
+2. Buat variabel nilai = 75, tampilkan hasil apakah nilai tersebut lebih besar dari 70 menggunakan operator comparison.
+
+3. Buat dua variabel boolean:
+   lulusTeori = true
+   lulusPraktek = false
+   lalu tentukan apakah siswa lulus total menggunakan operator logical.
+
+4. Buat variabel stok = 10, tambahkan 5 menggunakan operator assignment khusus.
+
+5. Buat variabel umur = 17, tentukan status "boleh membuat KTP" atau "belum boleh" menggunakan ternary operator.
+
+6. Buat variabel jumlah = 9, tampilkan sisa hasil bagi jika dibagi 2 menggunakan operator modulus.
+
+7. Buat variabel counter = 1, naikkan nilainya menggunakan operator unary lalu tampilkan hasilnya.
+
+8. Tampilkan hasil operasi bitwise antara angka 4 dan 2 menggunakan operator &.
+
+9. Buat variabel:
+   Object data = "Belajar Java";
+   Cek apakah bertipe String menggunakan operator relational.
+
+10. Buat object baru menggunakan operator new, simpan ke variabel mobil, lalu cek apakah termasuk tipe Object.
