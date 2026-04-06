@@ -1,0 +1,72 @@
+
+
+Latihan Coding: Variabel di Java
+
+Petunjuk:
+Kerjakan semua soal dalam satu file Java bernama LatihanVariabel.java
+Gunakan System.out.println() untuk menampilkan hasil setiap soal
+
+
+Soal 1
+Buat sebuah instance variable bernama speed dengan nilai awal 0
+Ubah nilainya menjadi 40 di dalam method main()
+Tampilkan nilai speed ke console
+
+
+Soal 2
+Buat sebuah class variable bernama numWheels dengan nilai 2
+Tampilkan nilainya menggunakan nama class
+
+
+Soal 3
+Buat constant variable bernama MAX_SPEED dengan nilai 120
+Tampilkan nilai constant tersebut ke console
+
+
+Soal 4
+Buat local variable bernama distance di dalam method main()
+Isi dengan nilai 15
+Tampilkan nilainya
+
+
+Soal 5
+Buat method bernama setSpeed yang memiliki parameter newSpeed
+Gunakan parameter tersebut untuk mengubah nilai instance variable speed
+Tampilkan nilai speed setelah diubah
+
+
+Soal 6
+Buat method bernama calculateTime yang memiliki parameter distance dan speed
+Buat local variable bernama time di dalam method tersebut
+Hitung time = distance / speed
+Tampilkan hasilnya
+
+
+Soal 7
+Buat dua object dari class LatihanVariabel
+Set nilai speed object pertama = 20
+Set nilai speed object kedua = 60
+Tampilkan kedua nilai speed tersebut
+Tujuan soal ini agar memahami instance variable berbeda antar object
+
+
+Soal 8
+Buat class variable bernama totalObject
+Tambahkan nilainya setiap kali object dibuat
+Tampilkan jumlah object yang sudah dibuat
+
+
+Soal 9
+Buat constant variable bernama APP_NAME bertipe String
+Isi dengan nilai "Belajar Java Variabel"
+Tampilkan nilainya ke console
+
+
+Soal 10
+Buat method bernama showInfo yang memiliki parameter name dan speed
+Tampilkan output seperti berikut:
+
+Name: Budi
+Speed: 50
+
+Panggil method tersebut dari main()
