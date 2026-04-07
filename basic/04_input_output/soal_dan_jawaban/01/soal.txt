@@ -1,0 +1,16 @@
+
+
+
+
+SOAL LATIHAN I/O JAVA (SCANNER & SYSTEM.OUT)
+
+1. Buat program yang meminta pengguna memasukkan nama, lalu menampilkan teks: "Halo, [nama]!".
+2. Buat program yang membaca dua angka dari pengguna menggunakan Scanner, lalu menampilkan hasil penjumlahannya.
+3. Buat program yang meminta input umur (int). Jika pengguna memasukkan nilai bukan angka, tampilkan “Input tidak valid!”.
+4. Buat program yang membaca tinggi badan (double) dan menampilkan: "Tinggi Anda: [nilai] cm".
+5. Buat program yang meminta pengguna memasukkan satu kata menggunakan next(), lalu menampilkan panjang kata tersebut.
+6. Buat program yang membaca tiga jenis input: nama (String), umur (int), dan status pelajar (boolean). Lalu tampilkan semuanya kembali.
+7. Buat program yang meminta input harga dan jumlah barang, kemudian hitung dan tampilkan total bayar.
+8. Buat program yang menggunakan printf untuk menampilkan format: "Nilai ujian: 90.50" dengan dua angka di belakang koma.
+9. Buat program yang mendeteksi apakah input pengguna berupa angka bulat menggunakan hasNextInt(). Jika ya, tampilkan angkanya; jika tidak, tampilkan pesan error.
+10. Buat program yang meminta pengguna memasukkan satu baris kalimat, lalu menampilkan jumlah karakter di dalam kalimat tersebut.
