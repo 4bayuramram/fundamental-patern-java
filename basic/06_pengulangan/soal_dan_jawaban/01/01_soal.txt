@@ -1,0 +1,30 @@
+Soal Latihan Java: Looping (for, while, do-while)
+
+Instruksi:
+
+* Jawab semua soal dengan menulis kode Java langsung.
+* Kumpulkan semua jawaban dalam satu file Java.
+
+1. Buat program menggunakan **for loop** untuk mencetak angka 1 sampai 10.
+
+2. Buat program menggunakan **while loop** untuk mencetak angka genap dari 2 sampai 20.
+
+3. Buat program menggunakan **do-while loop** untuk mencetak angka ganjil dari 1 sampai 15.
+
+4. Buat program **for loop** untuk mencetak perkalian 5 (5, 10, 15, ..., 50).
+
+5. Buat program menggunakan **while loop** untuk menghitung jumlah angka dari 1 sampai 100.
+
+6. Buat program **do-while loop** untuk meminta input user angka positif dan berhenti jika user memasukkan 0.
+
+7. Buat program **for loop** dengan **continue** untuk mencetak angka 1 sampai 10, kecuali angka 5.
+
+8. Buat program **while loop** dengan **break** untuk mencetak angka dari 1 sampai 10, tapi berhenti saat mencapai 7.
+
+9. Buat program **for loop** untuk mencetak tabel perkalian 3 (3x1 sampai 3x10).
+
+10. Buat program gabungan **for, while, dan do-while** untuk mencetak:
+
+    * For loop: angka 1-5
+    * While loop: angka 6-10
+    * Do-while loop: angka 11-15
