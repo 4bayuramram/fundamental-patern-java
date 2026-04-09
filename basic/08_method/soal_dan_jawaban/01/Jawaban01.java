@@ -9,6 +9,11 @@ File ini memberikan:
 - Kesimpulan di akhir
 
 Tujuan: Membantu pemula memahami konsep method di Java, penggunaan return, parameter, static, private, overloading, varargs, rekursif, dan access modifier.
+
+
+jalankan file 
+compile : javac basic/08_method/soal_dan_jawaban/01/Jawaban01.java
+run : java -cp basic/08_method/soal_dan_jawaban/01 Jawaban01
 */
 
 public class Jawaban01 {
