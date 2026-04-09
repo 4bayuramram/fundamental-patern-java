@@ -8,7 +8,7 @@ Java dasar
 5.	Control flow (if, switch) 
 6.	Looping (for, while, do-while) 
 7.	Conditional + looping 
-8.	Method (function di JS) 
+8.	Method 
 9.	Array 
 10.	Object (harus pakai class )
 

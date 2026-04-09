@@ -1,0 +1,26 @@
+Soal Method Java - Pemula
+
+1. Buat method bernama greet yang menampilkan "Hello World!" ke layar. 
+   Method ini tidak perlu mengembalikan nilai.
+
+2. Buat method bernama add yang menerima 2 parameter int dan mengembalikan hasil penjumlahan keduanya.
+
+3. Buat method overloading bernama add, tapi menerima 3 parameter int dan mengembalikan hasil penjumlahannya.
+
+4. Buat method static bernama staticGreet yang menampilkan "Hello from static method!" ke layar.
+
+5. Buat method private bernama secretMessage yang menampilkan "This is a secret." ke layar.
+
+6. Buat method rekursif bernama factorial yang menghitung faktorial dari parameter int n.
+
+7. Buat method bernama sumAll yang menerima parameter variabel (varargs int...) dan mengembalikan jumlah semua angkanya.
+
+8. Buat 1 object dari class MethodExercise, lalu panggil method greet, add(5, 10), dan factorial(4) menggunakan object tersebut. Tampilkan hasilnya.
+
+9. Buat method dengan access modifier berbeda:
+   - publicMethod(): menampilkan "Public method"
+   - protectedMethod(): menampilkan "Protected method"
+   - defaultMethod(): menampilkan "Default method"
+   Panggil ketiganya dari main().
+
+10. Buat program lengkap yang memanggil semua method di atas, dan menampilkan output yang benar di layar.
