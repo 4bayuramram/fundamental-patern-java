@@ -1,0 +1,59 @@
+Latihan Soal: Conditional + Looping (Java)
+
+Instruksi:
+- Jawab semua soal dengan menulis kode Java
+- Kumpulkan semua jawaban dalam 1 file .java
+- Gunakan class dan method main
+- Fokus pada penggunaan if, switch, dan looping
+
+==================================================
+
+1. Buat program untuk mengecek apakah sebuah angka genap atau ganjil menggunakan if-else.
+
+==================================================
+
+2. Buat program untuk menentukan grade nilai:
+>= 90 = A
+>= 80 = B
+>= 70 = C
+< 70 = D
+
+==================================================
+
+3. Buat program menggunakan switch untuk menampilkan nama hari berdasarkan angka (1-7).
+
+==================================================
+
+4. Buat program yang mencetak angka dari 1 sampai 10 menggunakan for loop.
+
+==================================================
+
+5. Buat program yang mencetak angka dari 10 ke 1 menggunakan while loop.
+
+==================================================
+
+6. Buat program yang mencetak angka 1 sampai 5 menggunakan do-while loop.
+
+==================================================
+
+7. Buat program yang menampilkan isi array:
+int[] angka = {2, 4, 6, 8};
+gunakan for-each.
+
+==================================================
+
+8. Buat program yang mencetak angka 1 sampai 10,
+tetapi skip angka 5 menggunakan continue.
+
+==================================================
+
+9. Buat program yang mencetak angka 1 sampai 10,
+tetapi berhenti saat angka 7 menggunakan break.
+
+==================================================
+
+10. Buat program yang menerima satu angka,
+lalu gunakan ternary operator untuk menentukan:
+"Positif" atau "Negatif".
+
+==================================================
