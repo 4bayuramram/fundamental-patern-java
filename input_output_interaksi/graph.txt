@@ -1,0 +1,223 @@
+
+=================================================
+input_output_interaksi/
+=================================================
+│
+├── src/                        # Semua kode sumber Java
+│   ├── Main.java               # Entry point utama (bisa untuk latihan CLI sederhana)
+│   ├── FileHandling/           # Sub-folder khusus latihan file
+│   │   ├── ReadFileExample.java
+│   │   └── WriteFileExample.java
+│   ├── CLIInteraction/         # Sub-folder latihan input/output via console
+│   │   ├── ScannerExample.java
+│   │   └── CommandLineArgsExample.java
+│   └── GUI/                    # Optional, latihan GUI dasar (Swing/JavaFX)
+│       ├── SimpleFrame.java
+│       └── ButtonExample.java
+│
+├── data/                       # File input/output untuk latihan
+│   ├── sample_input.txt
+│   └── output_example.txt
+│
+├── exercises/                  # Soal-soal latihan
+│   ├── Exercise1.java
+│   ├── Exercise2.java
+│   └── README.md               # Instruksi soal
+│
+├── README.md                   # Penjelasan materi dan panduan belajar
+└── .gitignore                  # Untuk version control, misal ignore file .class
+
+=================================================
+Panduan dan Penjelasan Struktur Folder:
+Materi: Interaksi I/O & Lingkungan Eksekusi Java
+=================================================
+
+1. src/
+   - Fungsi: Menyimpan semua kode sumber Java.
+   - Peran: Tempat latihan konsep I/O, CLI, file handling, dan GUI.
+   - Hubungan: Folder ini adalah inti dari praktik materi; setiap sub-folder
+    menargetkan jenis interaksi tertentu.
+
+   a. Main.java
+      - Fungsi: Entry point utama untuk latihan CLI sederhana.
+      - Peran: Menjalankan program dan menghubungkan latihan-latihan dasar.
+
+   b. FileHandling/
+      - Fungsi: Contoh membaca dan menulis file.
+      - Peran: Membiasakan menangani data yang persisten dan exception handling.
+      - Hubungan: Menyediakan dasar untuk memahami cara aplikasi back-end menyimpan/ambil data.
+
+   c. CLIInteraction/
+      - Fungsi: Contoh interaksi melalui console, termasuk Scanner dan Command-line arguments.
+      - Peran: Mengajarkan bagaimana program menerima input dari user secara real-time.
+      - Hubungan: Menyiapkan pemahaman input user yang mirip request di back-end.
+
+   d. GUI/ (Optional)
+      - Fungsi: Contoh program dengan tampilan interaktif.
+      - Peran: Memahami event-driven programming.
+      - Hubungan: Memberi gambaran konsep interaksi visual yang prinsipnya mirip dengan event handling
+       server-side.
+
+2. data/
+   - Fungsi: Menyimpan file input/output latihan.
+   - Peran: Media latihan file handling untuk membaca dan menulis data.
+   - Hubungan: File di sini akan diakses oleh kode di FileHandling dan Main.java.
+
+3. exercises/
+   - Fungsi: Soal-soal latihan untuk menguji pemahaman materi.
+   - Peran: Melatih kemampuan praktis memproses I/O dan memahami lingkungan eksekusi.
+   - Hubungan: Menggunakan kode dari src/ dan file dari data/ untuk latihan nyata.
+
+4. README.md
+   - Fungsi: Penjelasan singkat materi dan panduan belajar.
+   - Peran: Memberi konteks dan instruksi bagi pembaca/repo pengguna.
+
+5. .gitignore
+   - Fungsi: Mengabaikan file hasil compile (.class) saat version control.
+   - Peran: Menjaga repo tetap bersih dan teratur.
+
+Hubungan Antar Jalur:
+- src/ berisi kode utama, terhubung ke data/ untuk latihan file handling.
+- exercises/ memanfaatkan src/ dan data/ untuk menguji kemampuan praktis.
+- GUI/ dan CLIInteraction/ memberikan cara berbeda untuk berinteraksi dengan program.
+- README.md sebagai dokumentasi penghubung semua bagian.
+
+Kesimpulan Materi:
+- Tujuan: Membuat program Java yang dapat berinteraksi dengan dunia luar (user, file, environment)
+ dan menangani kondisi nyata/error.
+- Harapan Dasar Setelah Belajar:
+   1. Bisa membaca dan menulis file dengan benar.
+   2. Bisa menerima input dari user via console atau command-line.
+   3. Mengerti cara program dijalankan di lingkungan nyata (IDE vs terminal).
+- Inti Materi: Interaksi antara program dan lingkungan eksternal, pemahaman I/O, exception handling,
+ dan persiapan dasar untuk pengembangan back-end.
+
+
+
+=================================================
+ Sintaks Baru yang Sering Digunakan
+Materi: Interaksi I/O & Lingkungan Eksekusi Java
+=================================================
+1. File Handling
+
+   a. File
+      Sintaks:
+          File file = new File("nama_file.txt");
+      Kegunaan:
+          Merepresentasikan file atau folder di sistem.
+      Detil:
+          Objek File dapat dicek keberadaan, ukuran, atau tipe file.
+          Tidak langsung membuat file di disk.
+
+   b. FileReader
+      Sintaks:
+          FileReader fr = new FileReader(file);
+      Kegunaan:
+          Membaca karakter dari file.
+      Detil:
+          Digunakan bersama BufferedReader untuk baca baris demi baris.
+          FileReader sendiri membaca karakter per karakter.
+
+   c. BufferedReader
+      Sintaks:
+          BufferedReader br = new BufferedReader(new FileReader(file));
+          String line = br.readLine();
+          br.close();
+      Kegunaan:
+          Membaca file baris per baris.
+      Detil:
+          Lebih efisien daripada FileReader. Harus ditutup agar resource dilepas.
+
+   d. FileWriter & BufferedWriter
+      Sintaks:
+          BufferedWriter bw = new BufferedWriter(new FileWriter(file));
+          bw.write("Teks untuk ditulis");
+          bw.newLine();
+          bw.close();
+      Kegunaan:
+          Menulis data ke file, baris demi baris.
+      Detil:
+          BufferedWriter menulis lebih cepat daripada FileWriter langsung.
+          Tutup writer untuk menyimpan data ke disk.
+
+   e. Exception Handling (IOException)
+      Sintaks:
+          try {
+              // operasi file
+          } catch (IOException e) {
+              e.printStackTrace();
+          }
+      Kegunaan:
+          Menangani error saat file tidak ada atau gagal diakses.
+      Detil:
+          Semua operasi I/O rawan error. Try-catch mencegah program crash.
+
+2. CLI Interaction
+
+   a. Scanner
+      Sintaks:
+          Scanner sc = new Scanner(System.in);
+          String input = sc.nextLine();
+          sc.close();
+      Kegunaan:
+          Membaca input dari pengguna lewat console.
+      Detil:
+          Bisa membaca tipe data int, double, boolean, char, String.
+          Sangat sering digunakan untuk latihan input/output.
+
+   b. Command-line Arguments
+      Sintaks:
+          public static void main(String[] args) {
+              System.out.println("Argumen pertama: " + args[0]);
+          }
+      Kegunaan:
+          Menerima input saat menjalankan program lewat terminal.
+      Detil:
+          args[] adalah array String berisi semua parameter input.
+          Contoh:
+              java ProgramNama file.txt
+          args[0] akan berisi "file.txt".
+
+3. Basic GUI (Optional: Swing / JavaFX)
+
+   a. JFrame
+      Sintaks:
+          JFrame frame = new JFrame("Judul Frame");
+          frame.setSize(300, 200);
+          frame.setVisible(true);
+      Kegunaan:
+          Membuat jendela GUI.
+      Detil:
+          JFrame adalah container utama. Tanpa setVisible(true), jendela
+          tidak akan muncul.
+
+   b. JButton
+      Sintaks:
+          JButton button = new JButton("Klik Saya");
+          frame.add(button);
+      Kegunaan:
+          Membuat tombol interaktif.
+      Detil:
+          Bisa diberi event listener untuk menanggapi klik user.
+
+   c. JLabel & JTextField
+      Sintaks:
+          JLabel label = new JLabel("Nama:");
+          JTextField textField = new JTextField(20);
+      Kegunaan:
+          Menampilkan teks (JLabel) dan menerima input teks user (JTextField).
+      Detil:
+          JLabel hanya menampilkan teks. JTextField memungkinkan user mengetik.
+
+Kesimpulan:
+- Sintaks ini memungkinkan program berinteraksi dengan dunia luar.
+- Fokus:
+   1. Membaca & menulis file.
+   2. Menerima input runtime dari user.
+   3. Memahami event-driven programming (GUI).
+- Setelah mempelajari:
+   - Bisa membuat program menerima input, memproses data,
+     dan menyimpan hasilnya.
+- Inti materi:
+   Interaksi program dengan environment eksternal,
+   penanganan error, dan persiapan untuk back-end.

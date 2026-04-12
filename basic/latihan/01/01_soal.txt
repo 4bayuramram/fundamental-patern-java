@@ -1,0 +1,86 @@
+FILE: soal_java_dasar.txt
+
+==============================
+SOAL JAVA DASAR (PEMULA)
+==============================
+
+Petunjuk:
+- Jawablah setiap soal dengan kode Java lengkap (class + main method jika diperlukan).
+- Semua jawaban dikumpulkan dalam satu file.
+
+------------------------------------------------------------
+SOAL 1 - TIPE DATA
+Buat program yang mendeklarasikan:
+- int umur = 20
+- double tinggi = 170.5
+- boolean mahasiswa = true
+- char grade = 'A'
+- String nama = "Budi"
+
+Lalu tampilkan semua nilai tersebut.
+
+------------------------------------------------------------
+SOAL 2 - OPERATOR
+Buat program yang menerima 2 angka (boleh hardcode):
+- Hitung penjumlahan, pengurangan, perkalian, dan pembagian
+- Tampilkan hasilnya
+
+------------------------------------------------------------
+SOAL 3 - VARIABLE
+Buat program yang menyimpan:
+- nama barang
+- harga barang
+- jumlah barang
+
+Hitung total harga (harga * jumlah), lalu tampilkan.
+
+------------------------------------------------------------
+SOAL 4 - INPUT/OUTPUT (Scanner)
+Buat program yang:
+- meminta input nama dan umur user
+- menampilkan kembali: "Halo [nama], umur kamu [umur] tahun"
+
+------------------------------------------------------------
+SOAL 5 - CONTROL FLOW (IF)
+Buat program:
+- input nilai (0-100)
+- jika >= 75 tampilkan "Lulus"
+- jika < 75 tampilkan "Tidak Lulus"
+
+------------------------------------------------------------
+SOAL 6 - SWITCH CASE
+Buat program:
+- input angka 1-7
+- tampilkan hari (1=Senin, 2=Selasa, dst)
+
+------------------------------------------------------------
+SOAL 7 - LOOPING (FOR)
+Buat program yang mencetak angka 1 sampai 10 menggunakan perulangan for.
+
+------------------------------------------------------------
+SOAL 8 - WHILE & DO-WHILE
+Buat program:
+- while: cetak angka 10 sampai 1
+- do-while: cetak angka 1 sampai 5
+
+------------------------------------------------------------
+SOAL 9 - ARRAY
+Buat program:
+- simpan 5 angka dalam array
+- hitung total semua angka dalam array
+- tampilkan hasilnya
+
+------------------------------------------------------------
+SOAL 10 - OBJECT (CLASS)
+Buat class bernama "Siswa" dengan:
+- atribut: nama, umur
+- method tampil()
+
+Di main:
+- buat 1 objek Siswa
+- isi datanya
+- panggil method tampil()
+
+------------------------------------------------------------
+
+SELESAI
