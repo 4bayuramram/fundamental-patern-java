@@ -1,0 +1,142 @@
+LATIHAN JAVA: OBJECT DAN CLASS (CASE WEB DEVELOPER)
+
+Petunjuk:
+
+* Jawab dengan MENULIS KODE JAVA
+* Gunakan konsep:
+
+  * Class
+  * Object (Instance)
+  * Method / Constructor
+* Jawaban dikumpulkan:
+  → dalam 1 file ATAU
+  → dalam 1 folder berisi beberapa file
+  (pilih sesuai kebutuhan soal)
+
+==================================================
+SOAL 1: USER REGISTRATION
+=========================
+
+Dalam web, user harus mendaftar akun.
+
+Buat class "User" dengan:
+
+* username (String)
+* email (String)
+
+Tugas:
+
+* Buat 1 object user
+* Isi data secara manual
+* Tampilkan data user
+
+==================================================
+SOAL 2: LOGIN VALIDATION
+========================
+
+Sistem login membutuhkan validasi sederhana.
+
+Buat class "Login" dengan:
+
+* username
+* password
+
+Buat method:
+
+* cekLogin()
+
+Logika:
+
+* Jika username = "admin" dan password = "123"
+  tampilkan "Login berhasil"
+* selain itu "Login gagal"
+
+Tugas:
+
+* Gunakan Scanner untuk input
+* Jalankan method
+
+==================================================
+SOAL 3: PRODUCT DATA
+====================
+
+Website e-commerce menampilkan produk.
+
+Buat class "Product" dengan:
+
+* namaProduk
+* harga
+
+Buat method:
+
+* tampilkanProduk()
+
+Tugas:
+
+* Buat 2 object produk
+* Tampilkan data masing-masing
+
+==================================================
+SOAL 4: CART TOTAL
+==================
+
+Keranjang belanja menghitung total harga.
+
+Buat class "Cart" dengan:
+
+* namaProduk
+* harga
+* jumlah
+
+Buat method:
+
+* hitungTotal() → harga * jumlah
+
+Tugas:
+
+* Buat object cart
+* Tampilkan total harga
+
+==================================================
+SOAL 5: USER STATUS
+===================
+
+Website menentukan status user.
+
+Buat class "Member" dengan:
+
+* nama
+* totalBelanja
+
+Buat method:
+
+* cekStatus()
+
+Logika:
+
+* > = 1.000.000 → "Member Premium"
+* < 1.000.000 → "Member Biasa"
+
+Tugas:
+
+* Input dari user
+* Tampilkan status
+
+==================================================
+KETENTUAN TAMBAHAN
+==================
+
+* Gunakan minimal 1 method main()
+
+* Boleh:
+  ✔ 1 file (semua class digabung)
+  ATAU
+  ✔ beberapa file dalam 1 folder
+
+* Gunakan nama class yang sesuai
+
+* Output harus jelas dan rapi
+
+==================================================
+SELESAI
+=======

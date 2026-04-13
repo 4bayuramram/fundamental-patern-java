@@ -1,0 +1,110 @@
+LATIHAN JAVA: CLASS, OBJECT, DAN INSTANCE
+
+Petunjuk:
+
+* Jawab semua soal dengan MENULIS KODE JAVA
+* Semua jawaban dikumpulkan dalam 1 file .java
+* Gunakan 1 class utama (main) untuk menjalankan program
+* Boleh membuat beberapa class tambahan sesuai kebutuhan
+
+==================================================
+SOAL 1
+======
+
+Buat sebuah class bernama "Mobil" yang memiliki:
+
+* atribut: merk (String), tahun (int)
+
+Kemudian:
+
+* Buat 1 object dari class tersebut
+* Isi datanya secara manual
+* Tampilkan ke layar
+
+==================================================
+SOAL 2
+======
+
+Buat class "Mahasiswa" dengan atribut:
+
+* nama (String)
+* umur (int)
+
+Tambahkan method:
+
+* tampilkanData()
+
+Kemudian:
+
+* Buat 2 instance dari class tersebut
+* Isi data berbeda
+* Panggil method untuk masing-masing object
+
+==================================================
+SOAL 3
+======
+
+Buat class "Persegi" dengan atribut:
+
+* sisi (int)
+
+Tambahkan method:
+
+* hitungLuas() → mengembalikan luas
+
+Kemudian:
+
+* Buat object
+* Set nilai sisi
+* Tampilkan hasil luas
+
+==================================================
+SOAL 4
+======
+
+Buat class "Buku" dengan:
+
+* atribut: judul, penulis
+* constructor untuk mengisi semua atribut
+
+Kemudian:
+
+* Buat 2 object menggunakan constructor
+* Tampilkan data masing-masing object
+
+==================================================
+SOAL 5
+======
+
+Buat class "Siswa" dengan:
+
+* atribut: nama, nilai
+
+Tambahkan method:
+
+* cekKelulusan()
+  Jika nilai >= 75 → "Lulus"
+  Jika < 75 → "Tidak Lulus"
+
+Kemudian:
+
+* Input data dari user menggunakan Scanner
+* Buat object dari class Siswa
+* Tampilkan hasil kelulusan
+
+==================================================
+KETENTUAN TAMBAHAN
+==================
+
+* Semua jawaban harus dalam 1 file .java
+* Harus ada method main()
+* Gunakan konsep:
+
+  * Class
+  * Object (Instance)
+  * Method
+  * Constructor (jika diperlukan)
+
+==================================================
+SELESAI
+=======

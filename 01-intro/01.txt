@@ -1,0 +1,98 @@
+// ==========================================
+// Template Java Lengkap
+// Materi: Struktur File Java Lengkap
+// ==========================================
+
+// Package declaration (opsional, sesuaikan folder)
+package com.example.project;
+
+// Import statements (opsional, ambil class dari library lain)
+import java.util.Scanner;
+import java.io.File;
+import java.io.IOException;
+
+/**
+ * Nama Class: MyProgram
+ * Deskripsi: Template struktur lengkap file Java
+ */
+public class MyProgram {
+
+    // =========================
+    // Fields / Variables
+    // =========================
+    
+    // Instance variable
+    private int umur;
+
+    // Static variable (milik class, bukan objek)
+    public static final double PI = 3.14159;
+
+    // =========================
+    // Constructor
+    // =========================
+    /**
+     * Constructor: Menginisialisasi objek MyProgram
+     */
+    public MyProgram() {
+        this.umur = 0; // Inisialisasi umur
+    }
+
+    // =========================
+    // Methods
+    // =========================
+
+    /**
+     * Contoh method instance
+     */
+    public void tampilkanUmur() {
+        System.out.println("Umur: " + this.umur);
+    }
+
+    /**
+     * Contoh method static
+     */
+    public static void infoProgram() {
+        System.out.println("Program ini menggunakan template lengkap Java");
+    }
+
+    // =========================
+    // Main Method
+    // =========================
+    /**
+     * Titik awal program dijalankan
+     * @param args Command-line arguments
+     */
+    public static void main(String[] args) {
+        // Menampilkan info program (static method)
+        infoProgram();
+
+        // Membuat objek MyProgram
+        MyProgram program = new MyProgram();
+
+        // Memanggil method instance
+        program.tampilkanUmur();
+
+        // Contoh Scanner untuk input user
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Masukkan umur baru: ");
+        int newUmur = sc.nextInt();
+        sc.close();
+
+        // Update umur dan tampilkan
+        program.umur = newUmur;
+        program.tampilkanUmur();
+
+        // Contoh file handling
+        try {
+            File file = new File("contoh.txt");
+            if (file.createNewFile()) {
+                System.out.println("File berhasil dibuat: " + file.getName());
+            } else {
+                System.out.println("File sudah ada.");
+            }
+        } catch (IOException e) {
+            System.out.println("Terjadi error: " + e.getMessage());
+        }
+    }
+
+} // End of class MyProgram

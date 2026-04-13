@@ -12,12 +12,6 @@ Java dasar
 9.	Array 
 10.	Object (harus pakai class )
 
-“Interaksi I/O dan Lingkungan Eksekusi Java”
-
-1.	File handling (File, BufferedReader) 
-2.	CLI interaction 
-3.	Basic GUI (optional: Swing / JavaFX)
-
 Java advance
 
 1.	Class & Object (wajib) 
@@ -33,3 +27,9 @@ Java advance
 11.	Exception handling (try-catch) 
 12.	Multithreading 
 13.	Package & import
+
+“Interaksi I/O dan Lingkungan Eksekusi Java”
+
+1.	File handling (File, BufferedReader) 
+2.	CLI interaction 
+3.	Basic GUI (optional: Swing / JavaFX)
